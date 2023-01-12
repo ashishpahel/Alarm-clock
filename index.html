@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading h1">
+            <h1>Alarm Clock</h1>
+        </div>
+
+        <!-- Display the REAL time -->
+        <div id="current-time">
+            <div id="hours" style="--clr:#ff2972;">00</div>
+            <div id="minutes" style="--clr:#fee800">00</div>
+            <div id="seconds" style="--clr:#04fc43">00</div>
+            <div id="ampm"></div>
+        </div>
+        
+
+         <!-- Select time of the alarm to be set(for new alarm) -->
+         <div class="alarmtimebody">
+            <div>
+                <select class="time" id="hr" style="--clr:#ff2972;"></select>
+            </div>
+            <div>
+                <select class="time" id="min" style="--clr:#fee800"></select>
+            </div>
+            <div>
+                <select class="time" id="sec" style="--clr:#04fc43"></select>
+            </div>
+            <div>
+                <select class="time" id="ampm1" style="--clr:#ffffff;"></select>
+            </div>
+         </div>
+
+         <div class="btn">
+
+         <!-- Add new alarm, it will also add it to the upcoming list of alarm -->
+         <button id="setButton">Set Alarm</button>
+
+         <!-- stop button to stop the alarm sound after it starts ringing -->
+         <button id="stopButton">Stop Alarm</button>
+
+         </div>
+       
+        <div class="heading h3">
+            <h2>Upcoming Alarms</h2>
+        </div>
+
+        <hr>
+        
+        <ul id="incomplete-alarms">
+              <!-- Here will be the list of all upcoming alarms set by the user -->
+        </ul>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
