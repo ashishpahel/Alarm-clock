@@ -1,4 +1,8 @@
 # Coding-Ninjas-Alarm-Clock-Project
+
+live link = https://ashishpahel.github.io/Alarm-clock/
+
+
 This app will let you set and manage alarms and see current time ! This is a part of my frontend skills test.
 
 The query given to me is like :
@@ -29,6 +33,17 @@ In the Screenshot you can see that we have options for :
 2.Stop the alarm
 
 3.Delete the alarm 
+
+Once, the local time is matched with the alarm, it will show an alert message as well as start ringing the mp3 file.
+
+It will look like this :
+
+
+
+https://user-images.githubusercontent.com/84672321/212116344-ca1a76a2-e5e5-4c89-98f1-393b9a5ea300.mp4
+
+
+
 
 
 
